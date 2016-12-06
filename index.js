@@ -10,7 +10,7 @@ exports.sync = function (store, router) {
           query: to.query,
           params: to.params,
           fullPath: to.fullPath,
-          title: to.title
+          meta: to.meta
         })
       }
     }
